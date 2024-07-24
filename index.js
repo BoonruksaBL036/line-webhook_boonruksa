@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 
 app.get("/", (req, res) => {
-    res.send("<h1>Welcome, this is a webhook for Line Chatbot !!!</h1>")
+    res.send("<h1>Welcome, this is a webhook for SE NPRU Line Chatbot !!!</h1>")
 })
 
 app.post("/webhook", (req, res) => {
